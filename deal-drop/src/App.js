@@ -1,28 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.min";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+// import 'bootstrap-icons/font/bootstrap-icon'
+import Sidebar from './Sidebar';
+import Home from './Home';
 
 function App() {
   return (
-    <div className="App">
-       <h1 className="text-success">GeeksforGeeks</h1>
-            <div className="bg-info p-5">
-                <p className="">
-                    This is example for using button with
-                    bootstrap styling
-                </p>
-                <a
-                    className="btn btn-primary"
-                    data-bs-toggle="collapse"
-                    href="#collapseExample"
-                    role="button"
-                    aria-expanded="false"
-                    aria-controls="collapseExample"
-                >
-                    Bootstrap button
-                </a>
-            </div>
+    <div className='container-fluid bg-secondary min-vh-100'>
+      <div className='row'>
+        <div className='col-2 bg-white vh-100'>
+          <Sidebar />
+        </div>
+        <div className='col'>
+          <Home />
+        </div>
+      </div>
     </div>
   );
 }
