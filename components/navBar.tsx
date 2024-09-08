@@ -65,13 +65,13 @@ const NavBar = () => {
             Home
           </a>
           <a
-            href="/login"
+            href="/auth/login"
             className="block bg-blue-600 px-4 py-2 rounded-md text-white hover:bg-blue-500"
           >
             Log in
           </a>
           <a
-            href="/register"
+            href="/auth/register"
             className="block bg-blue-600 px-4 py-2 rounded-md text-white hover:bg-blue-500"
           >
             Sign up
