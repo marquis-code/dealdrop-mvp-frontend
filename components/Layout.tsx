@@ -1,6 +1,7 @@
 import getConfig from "next/config";
 import Head from "next/head";
 import { useRouter } from "next/router";
+import NavBar from "./navBar";
 
 const { publicRuntimeConfig } = getConfig();
 
@@ -79,7 +80,8 @@ const Layout = ({ children, ...customMeta }: LayoutProps) => {
         )}
         <title key="title">{meta.title}</title>
       </Head>
-      <main>{children}</main>
+      <NavBar/>
+      <main className="mt-12">{children}</main>
     </>
   );
 };

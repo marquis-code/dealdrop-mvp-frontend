@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <Layout>
       <section>
-         <div>Welcome to Deal Drop</div>
+         <div className="mt-20">Welcome to Deal Drop</div>
       </section>
     </Layout>
   );
