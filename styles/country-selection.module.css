@@ -1,0 +1,25 @@
+.home{
+    text-align: center;
+}
+.select{
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    border: 2px solid lightseagreen;
+    background-color: lightgrey;
+}
+.button{
+    border-radius: 20px;
+    padding: 10px 10px;
+    border: 2px solid lightseagreen;
+    margin-top: 15px;
+    background-color: lightgrey;
+    transition: background-color 0.3s ease;
+}
+.button:hover{
+    background-color: #45a049;
+}
+.label{
+    font-size: 20px;
+    font-weight: 600;
+}
